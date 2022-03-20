@@ -17,6 +17,6 @@ for q in range(1, 5):
         nvelho = nome
     if idade < 20 and sexo in 'F':
         mu20 += 1
-print(f'A soma das idades das 4 pessoas: {rep} e a média: {med}')
-print(f'O mais homem mais velho é {nvelho} com {imaior} anos.')
-print(f'Ao todo são {mu20} mulheres abaixo de 20 anos.')
+print(f'\033[1;32mA soma das idades das 4 pessoas: {rep} e a média: {med}\033[m')
+print(f'\033[1;31mO mais homem mais velho é {nvelho} com {imaior} anos.\033[m')
+print(f'\033[1;30mAo todo são {mu20} mulheres abaixo de 20 anos.\033[m')
